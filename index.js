@@ -51,5 +51,5 @@ document.addEventListener("DOMContentLoaded", () => {
         gradient.style.backgroundImage = `linear-gradient(hsl(${hue}, 100%, 50%), hsl(${(hue + 120) % 360}, 100%, 50%))`;
     }
 
-    setInterval(updateGradient, 500); // Update every 100ms
+    setInterval(updateGradient, 30); // Update every 100ms
 });
